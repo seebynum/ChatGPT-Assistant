@@ -164,7 +164,7 @@ with st.sidebar:
     st.write("\n")
     st.text_input("设定窗口名称：", key="set_chat_name", placeholder="点击输入")
     st.selectbox(
-        "选择模型：", index=0, options=["gpt-4o-mini", "gpt-4o", "gpt-4-turbo", "gpt-4", "gpt-3.5-turbo"], key="select_model"
+        "选择模型：", index=0, options=["o1","gpt-4o-mini", "gpt-4o", "gpt-4-turbo", "gpt-4", "gpt-3.5-turbo"], key="select_model"
     )
     st.caption(
         """
